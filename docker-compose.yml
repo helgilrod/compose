@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    image: salutacio:10896450
+    container_name: salutacio-compose
+    ports:
+      - "8080:5000"
